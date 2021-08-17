@@ -4,5 +4,5 @@
 
 Goals:
 
--Run zongyi-li'a Fourier Neural Operator scripts
--Get 
+- Run zongyi-li'a Fourier Neural Operator scripts
+- Get 
