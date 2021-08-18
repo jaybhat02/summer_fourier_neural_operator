@@ -11,4 +11,4 @@
 
 **Running Eval.py**
 
-Eval.py uses a pretrained model and evalutes a given input file. The advantage of this is that you do not need to trian a model which is quite difficult to run on normal computers. I suggest using google colab for running majority of the files/scripts. Even on google colab the run time on training models is upwards of an hour. 
+Eval.py uses a pretrained model and evalutes a given input file (.mat). The advantage of this is that you do not need to trian a model which is quite difficult to run on normal computers. I suggest using google colab for running majority of the files/scripts. Even on google colab the run time on training models is upwards of an hour which is why this file allows you to quickly run and evalute.
