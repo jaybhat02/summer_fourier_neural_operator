@@ -25,7 +25,7 @@ print(torch.cuda.device_count())
 
 The output file will be located in the 'pred' folder. It should be a MatLab file (.mat). There will be 2 varibles (4 dimensional) within the file; u and pred.
 - Pred: Predicted timesteps
-- U: Actual timesteps  
+- U: Actual timesteps
 Both are 4 dimensional matrices N by R by R by T
 - N: Number of examples
 - R: Resolution (most commonly 64 or 128)
