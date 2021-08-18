@@ -2,7 +2,7 @@
 
 This repositor contains insights and information on Zongyi Li's Fourier Neural Operator for Parametric Partial Differential Equations paper/code. Code: https://github.com/zongyi-li/fourier_neural_operator Paper: https://arxiv.org/abs/2010.08895
 
-*Goals*
+***Goals***
 - Run zongyi-li'a Fourier Neural Operator scripts
 - Use given datasets and models to train and evalute (Navier Stokes)
   -  fourier_2d_time.py
