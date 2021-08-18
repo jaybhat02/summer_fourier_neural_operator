@@ -14,7 +14,7 @@ This repositor contains insights and information on Zongyi Li's Fourier Neural O
 Eval.py uses a pretrained model and evalutes a given input file (.mat). The advantage of this is that you do not need to trian a model which is quite difficult to run on normal computers. I suggest using google colab for running majority of the files/scripts. Even on google colab the run time on training models is upwards of an hour which is why this file allows you to quickly run and evalute.
 1. Upload the provided code in repositor to google colab
 2. Turn on GPU accelerator: Runtime > Change runtime type > Hardware accelerator > GPU. You can check there is a device connected by running:  
-import torch
+import torch  
 print(torch.cuda.device_count())
 
 
