@@ -16,6 +16,15 @@ Eval.py uses a pretrained model and evalutes a given input file (.mat). The adva
 2. Turn on GPU accelerator: Runtime > Change runtime type > Hardware accelerator > GPU. You can check there is a device connected by running:  
 import torch  
 print(torch.cuda.device_count())
+3. Go into folder directory
+4. Run the code:  
+!python3 eval.py
 
+**If there is an issue with certain torch functions not being available, install an older version of pytorch:  
+!pip install torch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2
+
+The output file will be located in the 'pred' folder. It should be a MatLab file (.mat). There will be 2 varibles (4 dimensional) within the file; u and pred.
+- Pred: Predicted timesteps
+- U: Actual timesteps
 
 ![predFinal](https://user-images.githubusercontent.com/57377860/129657092-1075e9ce-c7b5-4216-abd9-2b81373c155c.gif)
