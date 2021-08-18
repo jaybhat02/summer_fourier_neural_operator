@@ -5,4 +5,4 @@
 **Goals**
 - Run zongyi-li'a Fourier Neural Operator scripts
 - Use given dataset to train and evalute fourier_2d_time.py (Navier Stokes)
-- 
+  -  gr
