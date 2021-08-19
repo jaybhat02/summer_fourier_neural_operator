@@ -56,3 +56,8 @@ The predition given by the script was terrible. The error rate was above 130%, w
 
 ## Flaws
 The final goal is to be able to make mesh files of our own and try to get time steps using the AI scripts. The intial required time steps needed for the input can be derived from traditional CFD methods, like SU2. There are multiple obsticles and constraints that have bounded the application of the new research done by Zongyi-li and his team. The code provided with his research is simply proof of concept of Fourier Neural Operator for Parametric Partial and not be used for real applications just yet. For example, boundry conditions are periodic, which are generally used in molecular dynamics simulations to avoid issues with boundary effects caused by finite size. The system  is made more like an infinite one using this. However, these conditions are not plausible for what is trying to be achieved here. 
+
+- Code is not complete and bug free. Last commit on Aug 11th 2021
+- Code is a proof of concept of Fourier Neural Operator for Parametric Partial Differential Equation not for real applications 
+- Has limitation with; Boundary conditions, External force matrix (gaussian random field), Number of time steps needed for scripts to work, Does not translate well with actual CFD standards (SU2 configurations)
+
