@@ -35,7 +35,6 @@ Both are 4 dimensional matrices N by R by R by T
 I have provided a short script file (MatlabScript.txt) which you can use to squeeze out matrices of time steps to view the change in vorticity. You can save the heatmaps to your local machine. The error between the predicted flow and actual is usually sub 10%.
 
 Predicted Flow:  
-![pred](https://user-images.githubusercontent.com/57377860/129989716-d7246e90-2a73-4161-b56e-707da791035b.gif)
-
+![pred](https://user-images.githubusercontent.com/57377860/129989716-d7246e90-2a73-4161-b56e-707da791035b.gif)  
 Actual Flow:  
 ![u](https://user-images.githubusercontent.com/57377860/129989723-8c32c002-d5d4-45b9-a7f6-dc43bcd72424.gif)
