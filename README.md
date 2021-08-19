@@ -40,4 +40,14 @@ Actual Flow:
 ![u](https://user-images.githubusercontent.com/57377860/129989723-8c32c002-d5d4-45b9-a7f6-dc43bcd72424.gif)
 
 ## SU2
-SU2 is an open source software that is used to solve partial differential equations and performing PDE-constrained optimization numerically. A mesh file (.su2) and configuration file (.cfg) are needed to run SU2. There are many provided on the SU2 website and 
+SU2 is an open source software that is used to solve partial differential equations and performing PDE-constrained optimization numerically. A mesh file (.su2) and configuration file (.cfg) are needed to run SU2. There are many provided on the SU2 website and github. For this example Unsteady_NACA0012 folder was used. 
+1. Download mesh and configuration file 
+2. Open output .vtk files in Paraview 
+3. Convert them from unstructured to structured mesh outputs
+4. Save 64x64 sections in cvs file for each time step
+5. Open cvs files in MatLab, normalize data
+6. Construct matrix of size resolution, resolution, # timesteps
+7. Create 20 for appropriate batch size for code
+8. Save final MatLab file to local machine
+9. Upload and run on google colab using one of the files (try eval.py)
+<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
