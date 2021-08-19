@@ -50,4 +50,10 @@ SU2 is an open source software that is used to solve partial differential equati
 7. Create 20 for appropriate batch size for code
 8. Save final MatLab file to local machine
 9. Upload and run on google colab using one of the files (try eval.py)
-<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+
+This is the code you need to align images to the left:
+```
+<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+```
+
