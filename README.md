@@ -38,3 +38,6 @@ Predicted Flow:
 ![pred](https://user-images.githubusercontent.com/57377860/129989716-d7246e90-2a73-4161-b56e-707da791035b.gif)  
 Actual Flow:  
 ![u](https://user-images.githubusercontent.com/57377860/129989723-8c32c002-d5d4-45b9-a7f6-dc43bcd72424.gif)
+
+## SU2
+SU2 is an open source software that is used to solve partial differential equations and performing PDE-constrained optimization numerically. A mesh file (.su2) and configuration file (.cfg) are needed to run SU2. There are many provided on the SU2 website and 
