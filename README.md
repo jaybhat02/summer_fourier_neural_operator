@@ -44,7 +44,7 @@ SU2 is an open source software that is used to solve partial differential equati
 1. Download mesh and configuration file 
 2. Open output .vtk files in Paraview 
 3. Convert them from unstructured to structured mesh outputs
-<img align="right" width="70%"  src="https://user-images.githubusercontent.com/57377860/130001787-37932e53-a420-465d-bb91-8a1fa28df4f7.PNG">
+<img align="right" width=60%  src="https://user-images.githubusercontent.com/57377860/130001787-37932e53-a420-465d-bb91-8a1fa28df4f7.PNG">
 4. Save 64x64 sections in cvs file for each time step
 5. Open cvs files in MatLab, normalize data
 6. Construct matrix of size resolution, resolution, # timesteps
