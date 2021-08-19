@@ -41,7 +41,7 @@ Actual Flow:
 
 ## SU2
 SU2 is an open source software that is used to solve partial differential equations and performing PDE-constrained optimization numerically. A mesh file (.su2) and configuration file (.cfg) are needed to run SU2. There are many provided on the SU2 website and github. For this example Unsteady_NACA0012 folder was used. 
-<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
 1. Download mesh and configuration file 
 2. Open output .vtk files in Paraview 
 3. Convert them from unstructured to structured mesh outputs
