@@ -62,4 +62,5 @@ The AI model is only able to predict what it has learnt. It simply cannot start 
 - Code is not complete and bug free. Last commit on Aug 11th 2021
 - Code is a proof of concept of Fourier Neural Operator for Parametric Partial Differential Equation not for real applications 
 - Has limitation with; Boundary conditions, External force matrix (gaussian random field), Number of time steps needed for scripts to work, Does not translate well with actual CFD standards (SU2 configurations)
+- Trying to predict flow 
 
