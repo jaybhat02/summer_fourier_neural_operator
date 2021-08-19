@@ -53,6 +53,6 @@ SU2 is an open source software that is used to solve partial differential equati
 9. Upload and run on google colab using one of the files (try eval.py)
 
 ## Result ##
-The predition given by the script was terrible. The error rate was above 130%, which was expected. This was simply a trial to see the direction this can be taken in.
-<img src="https://user-images.githubusercontent.com/57377860/130003166-a5adf9cc-e981-48a7-b445-00a840064355.gif" width="450"/> <img src="https://user-images.githubusercontent.com/57377860/130003170-c2346315-96ad-4d55-bd53-412e88f69d49.gif" width="425"/> 
+The predition given by the script was terrible. The error rate was above 130%, which was expected. This was simply a trial to see the direction this can be taken in.  
+<img src="https://user-images.githubusercontent.com/57377860/130003166-a5adf9cc-e981-48a7-b445-00a840064355.gif" width="425"/> <img src="https://user-images.githubusercontent.com/57377860/130003170-c2346315-96ad-4d55-bd53-412e88f69d49.gif" width="425"/> 
 
