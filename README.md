@@ -37,11 +37,6 @@ I have provided a short script file (MatlabScript.txt) which you can use to sque
 Left is actual and right is predicted.  
 <img src="https://user-images.githubusercontent.com/57377860/129989723-8c32c002-d5d4-45b9-a7f6-dc43bcd72424.gif" width="425"/> <img src="https://user-images.githubusercontent.com/57377860/129989716-d7246e90-2a73-4161-b56e-707da791035b.gif" width="425"/> 
 
-Predicted Flow:  
-![pred](https://user-images.githubusercontent.com/57377860/129989716-d7246e90-2a73-4161-b56e-707da791035b.gif)  
-Actual Flow:  
-![u](https://user-images.githubusercontent.com/57377860/129989723-8c32c002-d5d4-45b9-a7f6-dc43bcd72424.gif)
-
 ## SU2
 SU2 is an open source software that is used to solve partial differential equations and performing PDE-constrained optimization numerically. A mesh file (.su2) and configuration file (.cfg) are needed to run SU2. There are many provided on the SU2 website and github. For this example Unsteady_NACA0012 folder was used which includes a mesh file of an airfoil.
 1. Download mesh and configuration file 
