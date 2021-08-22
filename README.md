@@ -64,6 +64,7 @@ The AI model needs to be trained and evaluted using datasets. These datasets are
 - record_steps: number of in-time snapshots to record
 - S: resolution
 - N: number of examples  
+
 You could manipulate these, including the forcing term which is quite interesting. This can be done using pytorch code or MatLab. MatLab method requires you to upload the data back into the python code which can be some work. Changing the forcing term is how you can manupulate the flow of your data or try to mimic laminar flow. The intial vorticity is also quite important to understand for data generation. It uses Gaussian Random Fields. 
 
 ## Flaws
