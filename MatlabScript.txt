@@ -1,4 +1,4 @@
-%extract 2d matrices of given time steps
+% extract 2d matrices of given time steps
 for v = 1:+1:40 %change 40 to max time steps
 h=figure;
 heatmap(squeeze(pred(2,:,:,v)),'GridVisible','off','Colormap', cool);
