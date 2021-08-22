@@ -55,7 +55,16 @@ The predition given by the script was terrible. The error rate was above 130%, w
 <img src="https://user-images.githubusercontent.com/57377860/130003166-a5adf9cc-e981-48a7-b445-00a840064355.gif" width="440"/> <img src="https://user-images.githubusercontent.com/57377860/130003170-c2346315-96ad-4d55-bd53-412e88f69d49.gif" width="425"/> 
 
 ## Data Generation
-
+The AI model needs to be trained and evaluted using datasets. These datasets are generated using scripts that were provided in Zongyi-li's repository and are stored in MatLab files (.mat). A couple of datasets for you to train a model have been provided in a google drive folder, included some pre-trained models. The navier stokes folder contains data generation scripts for the codes that work with that PDE. The scripts use traditional computational methods to calculate accurate time steps. There are a couple of varibles that can be changed or are needed for the data generation:
+- w0: initial vorticity
+- f: forcing term
+- visc: viscosity (1/Re)
+- T: final time
+- delta_t: internal time-step for solve (descrease if blow-up)
+- record_steps: number of in-time snapshots to record
+- S: resolution
+- N: number of examples  
+You could manipulate these, including the forcing term which is quite interesting. This can be done using pytorch code or MatLab. MatLab method requires you to upload the data back into the python code which can be some work. Changing the forcing term is how you can manupulate the flow of your data or try to mimic laminar flow. The intial vorticity is also quite important to understand for data generation. It uses Gaussian Random Fields. 
 
 ## Flaws
 The final goal is to be able to make mesh files of our own and try to get time steps using the AI scripts. The intial required time steps needed for the input can be derived from traditional CFD methods, like SU2. There are multiple obsticles and constraints that have bounded the application of the new research done by Zongyi-li and his team. The code provided with his research is simply proof of concept of Fourier Neural Operator for Parametric Partial and not be used for real applications just yet. For example, boundry conditions are periodic, which are generally used in molecular dynamics simulations to avoid issues with boundary effects caused by finite size. The system  is made more like an infinite one using this. However, these conditions are not plausible for what is trying to be achieved here.  
