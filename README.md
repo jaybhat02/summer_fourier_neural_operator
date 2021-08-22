@@ -67,6 +67,8 @@ The AI model needs to be trained and evaluted using datasets. These datasets are
 
 You could manipulate these, including the forcing term which is quite interesting. This can be done using pytorch code or MatLab. MatLab method requires you to upload the data back into the python code which can be some work. Changing the forcing term is how you can manupulate the flow of your data or try to mimic laminar flow. The intial vorticity is also quite important to understand for data generation. It uses Gaussian Random Fields. 
 
+Running these data generation scripts is quite simple. Change your directory into the folder and use !python _filename_ to run. If there are issues with certain methods not existing, simply install an earlier version of pytorch: !pip install torch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2
+
 ## Flaws
 The final goal is to be able to make mesh files of our own and try to get time steps using the AI scripts. The intial required time steps needed for the input can be derived from traditional CFD methods, like SU2. There are multiple obsticles and constraints that have bounded the application of the new research done by Zongyi-li and his team. The code provided with his research is simply proof of concept of Fourier Neural Operator for Parametric Partial and not be used for real applications just yet. For example, boundry conditions are periodic, which are generally used in molecular dynamics simulations to avoid issues with boundary effects caused by finite size. The system  is made more like an infinite one using this. However, these conditions are not plausible for what is trying to be achieved here.  
 
