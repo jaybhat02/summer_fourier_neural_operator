@@ -1,6 +1,7 @@
 # Summer Research Work
 
 This repositor contains insights and information on Zongyi Li's Fourier Neural Operator for Parametric Partial Differential Equations paper/code. Code: https://github.com/zongyi-li/fourier_neural_operator Paper: https://arxiv.org/abs/2010.08895
+Google Drive Link:
 
 ## Goals
 - Run zongyi-li'a Fourier Neural Operator scripts
@@ -12,12 +13,14 @@ This repositor contains insights and information on Zongyi Li's Fourier Neural O
 ## Running Eval.py
 
 Eval.py uses a pre-trained model and evaluates a given input file (.mat). The advantage of this is that you do not need to train a model which is quite difficult to run on normal computers. I suggest using Google Colab for running the majority of the files/scripts. Even on Google Colab the run time on training models is upwards of an hour which is why this file allows you to quickly run and evaluate.
-1. Upload the provided code in repositor to google colab
-2. Turn on GPU accelerator: Runtime > Change runtime type > Hardware accelerator > GPU. You can check there is a device connected by running:  
+1. Download *fourier_neural_operator_mod* folder onto local machine
+2. Download *model* and *data* folders into *fourier_neural_operator_mod* folder from provided google drive link at the top
+3. Upload the folder to google colab
+4. Turn on GPU accelerator: Runtime > Change runtime type > Hardware accelerator > GPU. You can check there is a device connected by running:  
 import torch  
 print(torch.cuda.device_count())
-3. Go into folder directory
-4. Run the code:  
+5. Go into folder directory
+6. Run the code:  
 !python3 eval.py
 
 **If there is an issue with certain torch functions not being available, install an older version of pytorch:  
