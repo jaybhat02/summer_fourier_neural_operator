@@ -1,6 +1,6 @@
 # Summer Research Work
 
-This repositor contains insights and information on Zongyi Li's Fourier Neural Operator for Parametric Partial Differential Equations paper/code. Code: https://github.com/zongyi-li/fourier_neural_operator Paper: https://arxiv.org/abs/2010.08895  
+This repositor contains insights and information on Zongyi Li's Fourier Neural Operator for Parametric Partial Differential Equations paper/code. Code: https://github.com/zongyi-li/fourier_neural_operator Paper: https://arxiv.org/abs/2010.08895. The code provided in the *fourier_neural_operator_mod* folder is also the work of Zongyi Li and his team, with minor changes made to certain files.  
 Google Drive Link:
 
 ## Goals
